@@ -1,5 +1,4 @@
-var React = require("react");
+var text1 = require('./text1');
+var text2 = require('./text2');
 
-var text = 'hola mundo';
-
-module.exports = text;
+module.exports = text1 + ' ' + text2;
